@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.scan {
+	width: 100%;
+	-webkit-border-radius:8px;
+	border: solid 1px #d8c9ae;
+	font-size: 16px;
+	color: red;
+	background-color:red;
+}

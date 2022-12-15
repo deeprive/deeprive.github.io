@@ -1,0 +1,819 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/* container2*/
+.container2{
+  margin-right: auto;
+  margin-left: auto;
+  text-align : center;
+  width: 100%;
+		}
+.container3{
+    padding: 2% 12% 1% 12%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align : left;
+    width: 100%;
+    font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+    color: #555;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 33px;
+    background: #f5f4f0;
+		}
+
+@media all and (max-width: 768px) {
+    .container3 {
+    padding: 6% 12% 6% 12%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align : left;
+    width: 100%;
+    font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+    color: #555;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    background: #f5f4f0;
+}
+}
+
+@media all and (max-width: 375px) { 
+    .container3 {
+    padding: 6% 12% 6% 12%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align : left;
+    width: 100%;
+    font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+    color: #555;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    background: #f5f4f0;
+}
+}
+
+.container4{
+    background-image: url(../images/);
+    padding: 2% 12% 2% 12%;
+    background-repeat: repeat-x;
+    margin-right: auto;
+    margin-left: auto;
+    text-align : left;
+    width: 100%;
+		}
+@media all and (max-width: 768px) {
+    .container4 {
+    padding: 4% 8% 8% 8%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align : left;
+    width: 100%;
+    font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+    color: #555;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    background: #f5f4f0;
+}
+}
+
+@media all and (max-width: 375px) { 
+    .container4 {
+    padding: 4% 8% 8% 8%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align : left;
+    width: 100%;
+    font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+    color: #555;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    background: #f5f4f0;
+}
+}
+
+.container5{
+    margin-right: auto;
+    margin-left: auto;
+    text-align : left;
+		}
+/* header */
+.header {
+    width: 100%; 
+    margin: auto;
+    text-align : center;  
+    background: #eae7e0; 
+}
+/* logo */
+.logo {
+  text-align : center;
+  width: 100%;
+}
+
+.logo img {
+	vertical-align : middle;
+	margin: auto;
+}
+@media all and (max-width: 375px) {
+	.logo img {
+	vertical-align : middle;
+	margin: auto;
+}
+}
+/*nav*/
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
+}
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-header {
+    float: left;
+  }
+}
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 0px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+/* �x�ΰ��^ */
+.navbar-inverse {
+  background-color: #222;
+}
+
+.navbar-brand {
+  float: left;
+  height: 0px;
+  padding: 0px 0px;
+
+}
+/* �x�α��� */
+.navbar-inverse {
+  background-image: ;
+  background-repeat: x-repeat;  
+}
+.navbar-inverse .navbar-brand {
+  color: #9d9d9d; 
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+  color: #9d9d9d;
+}
+/* �x���ֵ��ɫ */
+.navbar-inverse .navbar-nav > li{
+  	font-family: "Microsoft YaHei";
+	color: #755e36;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 55px;
+	letter-spacing: 5px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  	font-family: "Microsoft YaHei";
+	color: #9a7c47;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 26px;
+	letter-spacing: 5px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+/* navbar-toggle ��� */
+.navbar-inverse .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #bd9b5e;
+}
+/* navbar-toggle "��"���ɫ */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+/* navbar-toggle �׾� */
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #222;
+}
+/* �x�� focus����ɫ */
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+        border-color: #080808;
+	opacity: 0.9;
+	background-color: #080808;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #9d9d9d;
+  }
+/* ���x�� �ɫ */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+/* ���x�� focus �ɫ */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #080808;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+}
+.navbar-inverse .navbar-link {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-link:hover {
+  color: #fff;
+}
+.navbar-inverse .btn-link {
+  color: #9d9d9d;
+}
+.navbar-inverse .btn-link:hover,
+.navbar-inverse .btn-link:focus {
+  color: #fff;
+}
+.navbar-inverse .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-inverse .btn-link:hover,
+.navbar-inverse .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-inverse .btn-link:focus {
+  color: #444;
+}
+/* ����
+-------------------------------------------------- */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+/* cover bootrstrap */		
+.row {
+  margin-right: auto;
+  margin-left: auto;
+}	
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.form-group {
+  margin-bottom: 12px;
+}
+
+/* albums
+-------------------------------------------------- */
+.albums-line{
+	border-radius: 3px;
+	height:12px;
+	background-color:#bd9b5e;
+	margin-bottom: 22px;
+	background-image: url(../images/albums-line.png);
+	background-repeat: repeat-x;
+}
+.albums-title{
+	display:block;
+	background-image: url(../images/albums-title-bg.png);
+		}
+.albums-title2{
+	color: #333;
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+	text-align : center;
+	margin-bottom: 10px;	
+		}
+.albums-title2 a{
+	color: #333;
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+		}
+.albums-title2 a:hover{
+	color: #333;
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+	line-height: 25px;
+	text-decoration: none;
+		}
+.albums{
+        margin: 0.8% 0 1.2% 0;
+	text-align : center;
+
+}
+@media all and (max-width: 768px) {
+	.albums {
+	text-align : center;
+
+}
+}
+@media all and (max-width: 375px) {
+	.albums {
+	text-align : center;
+	width: 100%;
+}
+}
+
+.albums img {
+	vertical-align : middle;
+	margin: 0px auto 10px auto;
+	transform: scaleY(1);
+	transition: all .7s ease-in-out;
+}
+.albums a{
+	vertical-align : middle;
+	margin: 0px auto 10px auto;
+}
+.albums:hover img { 
+    background-color: rgba(245, 244, 240, 0.3); 
+    transition: all 0.5s linear;
+    opacity: 0.7;
+    -webkit-transform: scale(1.1);  
+    transform: scale(1.1);
+}
+
+.albums2{
+        margin: 0.8% 0 1.2% 0;
+	text-align : center;
+
+}
+@media all and (max-width: 768px) {
+	.albums2 {
+	text-align : center;
+
+}
+}
+@media all and (max-width: 375px) {
+	.albums2 {
+	text-align : center;
+	width: 100%;
+}
+}
+
+.albums2 img {
+	vertical-align : middle;
+	margin: 0px auto 10px auto;
+	transform: scaleY(1);
+	transition: all .7s ease-in-out;
+}
+.albums2 a{
+	vertical-align : middle;
+	margin: 0px auto 10px auto;
+}
+.albums2:hover img { 
+    background-color: rgba(245, 244, 240, 0.3); 
+    transition: all 0.5s linear;
+    opacity: 0.7;
+    -webkit-transform: scale(1.1);  
+    transform: scale(1.1);
+}    
+/* footer */
+.footer {
+	padding:10px 0 10px 0;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #555;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	border-top-width: 0px;
+	border-top-style: solid;
+	border-top-color: #ddd;
+	text-align : center;
+         background-color: ;
+}
+
+@media all and (max-width: 768px) {
+	.footer {
+	padding:10px 0 10px 0;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #555;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+}
+}
+@media all and (max-width: 375px) {
+	.footer {
+	padding:10px 0 10px 0;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #555;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+}
+
+
+
+/*css*/
+.css {
+  	font-family: "Microsoft YaHei";
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 60px;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 26px;
+	letter-spacing: 6px;
+}
+
+.css2 {
+	background-image: url(../images/);
+	padding:10px 0 10px 0;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #444;
+	font-size: 26px;
+	line-height: 40px;
+	font-weight: bold;
+
+}
+.css3 {
+	background-image: url(../images/);
+	padding:0px 0 0px 70px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #444;
+	font-size: 22px;
+	line-height: 36px;
+	font-weight: normal;
+
+}
+@media all and (max-width: 768px) {
+	.css3  {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #444;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+}
+}
+@media all and (max-width: 375px) {
+	.css3  {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #444;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+}
+}
+.css4 {
+	margin:15px 0 15px 0;
+	font-weight: normal;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ccc;
+	text-align : center;
+        background-color: ;
+}
+
+.css5 {
+    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 18px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+}
+.css6 {
+  	font-family: "Microsoft YaHei";
+	color: #444;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 55px;
+	text-align : left;
+	text-indent:2em;
+}
+@media all and (max-width: 768px) {
+	.css6  {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #444;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-indent:0.5em;
+}
+}
+@media all and (max-width: 375px) {
+	.css6  {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #444;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-indent:0.5em;
+}
+}
+.css7 {
+  	font-family: "Microsoft YaHei";
+	color: #97721b;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 55px;
+	text-align : left;
+}
+@media all and (max-width: 768px) {
+	.css7  {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #97721b;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-indent:0.5em;
+}
+}
+@media all and (max-width: 375px) {
+	.css7  {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #97721b;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-indent:0.5em;
+}
+}
+.css8 {
+	background-image: url(../images/);
+	padding:0px 0px 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #7e6f4b;
+	font-size: 22px;
+	line-height: 36px;
+	font-weight: normal;
+	text-align : center;
+
+}
+@media all and (max-width: 768px) {
+	.css8  {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #7e6f4b;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: normal;
+}
+}
+@media all and (max-width: 375px) {
+	.css8  {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #7e6f4b;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: normal;
+}
+}
+.css8 a{
+	background-image: url(../images/);
+	padding:0px 0px 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #8b7f62;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: normal;
+	text-align : center;
+	text-decoration: none;
+
+}
+@media all and (max-width: 768px) {
+	.css8  a{
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #7e6f4b;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight:normal;
+}
+}
+@media all and (max-width: 375px) {
+	.css8  a{
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #7e6f4b;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: normal;
+}
+}
+.css8 a:hover{
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #db6404;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: normal;
+	text-align : center;
+	text-decoration: none;
+
+}
+@media all and (max-width: 768px) {
+	.css8  a:hover{
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #7e6f4b;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: normal;
+}
+}
+@media all and (max-width: 375px) {
+	.css8 a:hover {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #7e6f4b;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: normal;
+}
+}
+.css9 {
+	margin:15px 0 25px 0;
+	font-weight: normal;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ccc;
+	text-align : center;
+        background-color: ;
+}
+.css10 {
+	margin:0px 0px 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #555;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: normal;
+	text-align : left;
+
+}
+.css11 {
+	margin:15px 0px 0px 0px;
+	padding:5px 0 5px 0;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #555;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d6c18f;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d6c18f;
+	text-align : center;
+        background-color: ;
+        border-radius: 0px;
+}
+.css11 a{
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #444;
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: normal;
+	text-align : center;
+	text-decoration: none;
+}
+.css11 a:hover{
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #7e6f4b;
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: normal;
+	text-align : center;
+	text-decoration: none;
+}
+.css12 {
+	background-image: url(../images/);
+	padding:0px 0px 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #db6404;
+	font-size: 22px;
+	line-height: 36px;
+	font-weight: normal;
+	text-align : center;
+
+}
+@media all and (max-width: 768px) {
+	.css12  {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #db6404;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: normal;
+}
+}
+@media all and (max-width: 375px) {
+	.css12  {
+	background-image: url(../images/);
+	padding:0px 0 0px 0px;
+	background-repeat: repeat-x;
+	font-family: 'ProximaNova-Bold','Noto Sans TC',"Microsoft JhengHei";
+	color: #db6404;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: normal;
+}
+}
+img{
+max-width:100%;
+height:auto!
+important;
+}
